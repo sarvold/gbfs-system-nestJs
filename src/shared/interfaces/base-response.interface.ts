@@ -1,5 +1,5 @@
 export interface BaseResponse<T> {
-  last_updated: number; // Represents Date in seconds
+  last_updated: number;
   ttl: number;
   version: string;
   data: T;

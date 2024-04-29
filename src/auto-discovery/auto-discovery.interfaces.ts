@@ -49,7 +49,7 @@ export interface GbfsDiscoveryFeed {
  *       }
  *   }
  * }
- * However, in documentation it states directly feeds, no language nor country prefix
+ * However, in documentation it states directly feeds, no language nor country prefix.
  */
 export type GbfsDiscoveryFile =
   | LanguageOrCountryFeeds<GbfsDiscoveryFeed[]>
@@ -130,7 +130,7 @@ export interface SystemInformation {
 }
 
 export interface FullSystemDetails {
-  system_information: BaseResponse<SystemInformation>;
-  station_information: BaseResponse<StationInformation>;
-  station_status: BaseResponse<StationStatus>;
+  system_information: BaseResponse<SystemInformation> | null;
+  station_information: BaseResponse<StationInformation> | null;
+  station_status: BaseResponse<StationStatus> | null;
 }

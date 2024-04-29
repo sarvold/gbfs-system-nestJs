@@ -22,7 +22,7 @@ export class CustomCacheInterceptor implements NestInterceptor {
   intercept(
     context: ExecutionContext,
     next: CallHandler<FullSystemDetails>,
-  ): Observable<any> {
+  ): Observable<FullSystemDetails> {
     const key: string = context.switchToHttp().getRequest().url;
 
     // Nothing to find or set in cache
@@ -35,21 +35,36 @@ export class CustomCacheInterceptor implements NestInterceptor {
 
     // If the cache entry exists and it's not expired, return it
     if (cacheEntry && currentTime < cacheEntry.expiry) {
-      return of({
-        ttl: cacheEntry.expiry - currentTime,
-        last_updated: cacheEntry.expiry,
-        data: cacheEntry.value,
-      });
+      return of(cacheEntry.value);
     }
 
     // Continue flow, call API and set cache
     return next.handle().pipe(
-      tap((response: FullSystemDetails) => {
+      tap((response: Readonly<FullSystemDetails>) => {
+        // Consider only those response elements that are truthy
+        const soonestExpiry = Math.min(
+          ...(response.station_status
+            ? [
+                response.station_status.last_updated +
+                  response.station_status.ttl,
+              ]
+            : []),
+          ...(response.station_information
+            ? [
+                response.station_information.last_updated +
+                  response.station_information.ttl,
+              ]
+            : []),
+          ...(response.system_information
+            ? [
+                response.system_information.last_updated +
+                  response.system_information.ttl,
+              ]
+            : []),
+        );
         this.cache.set(key, {
           value: response,
-          expiry:
-            // Assuming station_status might have fastest changing values
-            response.station_status.last_updated + response.station_status.ttl,
+          expiry: soonestExpiry,
         });
       }),
     );
