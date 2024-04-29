@@ -16,7 +16,7 @@ describe('CustomCacheInterceptor', () => {
 
     mockFullSystemDetailsResponse = {
       system_information: {
-        last_updated: 0,
+        last_updated: Math.floor(Date.now() / 1000),
         ttl: 60,
         version: '2.3',
         data: {
@@ -54,20 +54,51 @@ describe('CustomCacheInterceptor', () => {
       };
       (interceptor as any).cache.set('testUrl', cacheEntry);
 
-      interceptor.intercept(executionContext as ExecutionContext, callHandler).subscribe((data) => {
-        expect(data).toEqual(cacheEntry.value);
-        done();
-      });
+      interceptor
+        .intercept(executionContext as ExecutionContext, callHandler)
+        .subscribe((data) => {
+          expect(data).toEqual(cacheEntry.value);
+          done();
+        });
     });
 
-    it('should call API and set cache if cache does not exist or is expired', (done) => {
-      // This strategy has room for performance improvements. A basic one is not set the cache at all when ttl is 0.
-      // Anyway if expiration added is already expired, next time api will be called.
-      interceptor.intercept(executionContext as ExecutionContext, callHandler).subscribe((data) => {
-        expect((interceptor as any).cache.get('testUrl').value).toEqual(
-          data,
-        );
-        done();
+    describe('When calling the API', () => {
+      it('should call API and set cache', (done) => {
+        interceptor
+          .intercept(executionContext as ExecutionContext, callHandler)
+          .subscribe((data) => {
+            expect((interceptor as any).cache.get('testUrl').value).toEqual(
+              data,
+            );
+            done();
+          });
+      });
+      it('should NOT set cache if soonest expiration is already expired', (done) => {
+        const response = {
+          station_status: {
+            last_updated: Math.floor(Date.now() / 1000) - 120,
+            ttl: 60,
+          },
+          station_information: {
+            last_updated: Math.floor(Date.now() / 1000) - 120,
+            ttl: 60,
+          },
+          system_information: {
+            last_updated: Math.floor(Date.now() / 1000) - 120,
+            ttl: 60,
+          },
+        };
+        callHandler = {
+          handle: () => of(response),
+        } as CallHandler<FullSystemDetails>;
+
+        interceptor
+          .intercept(executionContext as ExecutionContext, callHandler)
+          .subscribe((data) => {
+            const cachedValue = (interceptor as any).cache.get('testUrl');
+            expect(cachedValue).toBeUndefined();
+            done();
+          });
       });
     });
   });

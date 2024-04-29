@@ -16,8 +16,8 @@ interface CacheEntry {
 @Injectable()
 export class CustomCacheInterceptor implements NestInterceptor {
   // Native caching. CacheModule from @nestjs/cache-manager does not seem to have the flexibility we need here.
-  // Alternatively, we could use redis or memcached for production
-  private cache = new Map<string, CacheEntry>(); // We use as keys the request Url
+  // Alternatively, we could use redis or memcached
+  private cache = new Map<string, CacheEntry>(); // We use as keys the request Url used to call our api
 
   intercept(
     context: ExecutionContext,
@@ -25,17 +25,21 @@ export class CustomCacheInterceptor implements NestInterceptor {
   ): Observable<FullSystemDetails> {
     const key: string = context.switchToHttp().getRequest().url;
 
-    // Nothing to find or set in cache
     if (!key) {
       return next.handle();
     }
 
     const cacheEntry = this.cache.get(key);
-    const currentTime = Math.floor(Date.now() / 1000); // Convert to seconds
+    const getCurrentTime = () => Math.floor(Date.now() / 1000); // Convert to seconds
 
-    // If the cache entry exists and it's not expired, return it
-    if (cacheEntry && currentTime < cacheEntry.expiry) {
-      return of(cacheEntry.value);
+    if (cacheEntry) {
+      if (getCurrentTime() >= cacheEntry.expiry) {
+        // If it's expired, clear it
+        this.cache.delete(key);
+      } else {
+        // If it's not expired, return it
+        return of(cacheEntry.value);
+      }
     }
 
     // Continue flow, call API and set cache
@@ -62,10 +66,13 @@ export class CustomCacheInterceptor implements NestInterceptor {
               ]
             : []),
         );
-        this.cache.set(key, {
-          value: response,
-          expiry: soonestExpiry,
-        });
+        // If soonestExpiry is not expired, set the cache
+        if (soonestExpiry > getCurrentTime()) {
+          this.cache.set(key, {
+            value: response,
+            expiry: soonestExpiry,
+          });
+        }
       }),
     );
   }
