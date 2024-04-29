@@ -1,0 +1,1235 @@
+[
+    {
+        "countryCode": "AE",
+        "name": "Careem BIKE",
+        "location": "Dubai",
+        "systemId": "careem_bike",
+        "url": "https://www.careem.com/en-ae/careem-bike/",
+        "autoDiscoveryUrl": "https://dubai.publicbikesystem.net/customer/gbfs/v2/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "AR",
+        "name": "Bike Nordelta",
+        "location": "Buenos Aires",
+        "systemId": "bike_nordelta",
+        "url": "https://bikeitau.com.br/nordelta/",
+        "autoDiscoveryUrl": "https://nordelta.publicbikesystem.net/ube/gbfs/v1/",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "AR",
+        "name": "Ecobici",
+        "location": "Buenos Aires",
+        "systemId": "bike_buenosaires",
+        "url": "https://www.buenosaires.gob.ar/ecobici",
+        "autoDiscoveryUrl": "https://buenosaires.publicbikesystem.net/ube/gbfs/v1/",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "AR",
+        "name": "MiBiciTuBici",
+        "location": "Rosario",
+        "systemId": "biketobike",
+        "url": "https://www.mibicitubici.gob.ar/",
+        "autoDiscoveryUrl": "https://www.mibicitubici.gob.ar/opendata/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "AT",
+        "name": "city bike Linz",
+        "location": "Linz",
+        "systemId": "nextbike_al",
+        "url": "https://citybikelinz.at/",
+        "autoDiscoveryUrl": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_al/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "AT",
+        "name": "LINK Linz",
+        "location": "Linz",
+        "systemId": "Link_Linz",
+        "url": "https://www.superpedestrian.com",
+        "autoDiscoveryUrl": "https://mds.linkyour.city/gbfs/at_linz/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "AT",
+        "name": "LINK Vienna",
+        "location": "Vienna",
+        "systemId": "Link_Vienna",
+        "url": "https://www.superpedestrian.com",
+        "autoDiscoveryUrl": "https://mds.linkyour.city/gbfs/at_vienna/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "AT",
+        "name": "nextbike Burgenland Austria",
+        "location": "Neusiedler See",
+        "systemId": "nextbike_na",
+        "url": "https://www.nextbike.at/de/burgenland/",
+        "autoDiscoveryUrl": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_na/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "AT",
+        "name": "nextbike Klagenfurt Austria",
+        "location": "Klagenfurt",
+        "systemId": "nextbike_ka",
+        "url": "https://www.nextbike.at/de/klagenfurt/",
+        "autoDiscoveryUrl": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ka/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "AT",
+        "name": "nextbike Niederösterreich Austria",
+        "location": "Austria",
+        "systemId": "nextbike_la",
+        "url": "https://www.nextbike.at/de/",
+        "autoDiscoveryUrl": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_la/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "CH",
+        "name": "Bird Basel",
+        "location": "Basel",
+        "systemId": "bird-basel",
+        "url": "https://www.bird.co",
+        "autoDiscoveryUrl": "https://mds.bird.co/gbfs/v2/public/basel/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "CH",
+        "name": "Bird Biel",
+        "location": "Biel",
+        "systemId": "bird-biel",
+        "url": "https://www.bird.co",
+        "autoDiscoveryUrl": "https://mds.bird.co/gbfs/v2/public/biel/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "CH",
+        "name": "Bird Bulle",
+        "location": "Bulle",
+        "systemId": "bird-bulle",
+        "url": "https://www.bird.co",
+        "autoDiscoveryUrl": "https://mds.bird.co/gbfs/v2/public/bulle/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "CH",
+        "name": "Bird Uster",
+        "location": "Uster",
+        "systemId": "bird-uster",
+        "url": "https://www.bird.co",
+        "autoDiscoveryUrl": "https://mds.bird.co/gbfs/v2/public/uster/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "CH",
+        "name": "Bird Winterthur",
+        "location": "Winterthur",
+        "systemId": "bird-winterthur",
+        "url": "https://www.bird.co",
+        "autoDiscoveryUrl": "https://mds.bird.co/gbfs/v2/public/winterthur/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "CH",
+        "name": "Bird Zurich",
+        "location": "Zurich",
+        "systemId": "bird-zurich",
+        "url": "https://www.bird.co",
+        "autoDiscoveryUrl": "https://mds.bird.co/gbfs/v2/public/zurich/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "CH",
+        "name": "Donkey Republic Geneva",
+        "location": "Geneva",
+        "systemId": "donkey_ge",
+        "url": "https://www.donkey.bike/cities/bike-rental-geneva/",
+        "autoDiscoveryUrl": "https://stables.donkey.bike/api/public/gbfs/2/donkey_ge/gbfs",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "CH",
+        "name": "Donkey Republic Kreuzlingen",
+        "location": "Kreuzlingen",
+        "systemId": "donkey_kreuzlingen",
+        "url": "https://www.donkey.bike/cities/bike-rental-kreuzlingen/",
+        "autoDiscoveryUrl": "https://stables.donkey.bike/api/public/gbfs/2/donkey_kreuzlingen/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "CH",
+        "name": "Donkey Republic Le Locle",
+        "location": "Le Locle",
+        "systemId": "donkey_le_locle",
+        "url": "https://www.donkey.bike/cities/bike-rental-le-locle/",
+        "autoDiscoveryUrl": "https://stables.donkey.bike/api/public/gbfs/2/donkey_le_locle/gbfs",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "CH",
+        "name": "Donkey Republic Neuchâtel",
+        "location": "Neuchâtel",
+        "systemId": "donkey_neuchatel",
+        "url": "https://www.donkey.bike/cities/bike-rental-neuchatel/",
+        "autoDiscoveryUrl": "https://stables.donkey.bike/api/public/gbfs/2/donkey_neuchatel/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "CH",
+        "name": "Donkey Republic Sion",
+        "location": "Sion",
+        "systemId": "donkey_sion",
+        "url": "https://www.donkey.bike/cities/bike-rental-sion/",
+        "autoDiscoveryUrl": "https://stables.donkey.bike/api/public/gbfs/2/donkey_sion/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "CH",
+        "name": "Donkey Republic Thun",
+        "location": "Thun",
+        "systemId": "donkey_thun",
+        "url": "https://www.donkey.bike/cities/bike-rental-thun/",
+        "autoDiscoveryUrl": "https://stables.donkey.bike/api/public/gbfs/2/donkey_thun/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "CH",
+        "name": "Donkey Republic Yverdon-les-Bains",
+        "location": "Yverdon Les Bains",
+        "systemId": "donkey_yverdon-les-bains",
+        "url": "https://www.donkey.bike/cities/bike-rental-yverdon-les-bains/",
+        "autoDiscoveryUrl": "https://stables.donkey.bike/api/public/gbfs/2/donkey_yverdon-les-bains/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "CH",
+        "name": "Lime Opfikon",
+        "location": "Opfikon",
+        "systemId": "lime_opfikon",
+        "url": "https://www.li.me/",
+        "autoDiscoveryUrl": "https://data.lime.bike/api/partners/v2/gbfs/opfikon/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "CH",
+        "name": "Lime Zug",
+        "location": "Zug",
+        "systemId": "lime_zug",
+        "url": "https://www.li.me/",
+        "autoDiscoveryUrl": "https://data.lime.bike/api/partners/v2/gbfs/zug/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "CH",
+        "name": "LINK Basel",
+        "location": "Basel",
+        "systemId": "Link_Basel",
+        "url": "https://www.superpedestrian.com",
+        "autoDiscoveryUrl": "https://mds.linkyour.city/gbfs/ch_basel/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "CH",
+        "name": "nextbike Switzerland",
+        "location": "Switzerland",
+        "systemId": "nextbike_ch",
+        "url": "https://www.nextbike.ch/de/",
+        "autoDiscoveryUrl": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ch/gbfs.json"
+    },
+    {
+        "countryCode": "IE",
+        "name": "Castletroy Bikes (Ireland)",
+        "location": "Castleroy",
+        "systemId": "nextbike_lm",
+        "url": "https://www.nextbike.ie/limerick/",
+        "autoDiscoveryUrl": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_lm/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IE",
+        "name": "Navan Bikes (Ireland)",
+        "location": "Navan",
+        "systemId": "nextbike_ll",
+        "url": "https://www.nextbike.ie/meath-navan/",
+        "autoDiscoveryUrl": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ll/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IL",
+        "name": "Bird Tel Aviv",
+        "location": "Tel Aviv",
+        "systemId": "bird-tel-aviv",
+        "url": "https://www.bird.co",
+        "autoDiscoveryUrl": "https://mds.bird.co/gbfs/v2/public/tel-aviv/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IL",
+        "name": "Dott Petah-Tikva",
+        "location": "Petah Tikva",
+        "systemId": "dott-petah-tikva",
+        "url": "https://ridedott.com/",
+        "autoDiscoveryUrl": "https://gbfs.api.ridedott.com/public/v2/petah-tikva/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IL",
+        "name": "Dott Tel-Aviv",
+        "location": "Tel Aviv",
+        "systemId": "dott-tel-aviv",
+        "url": "https://ridedott.com",
+        "autoDiscoveryUrl": "https://gbfs.api.ridedott.com/public/v2/tel-aviv/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IL",
+        "name": "Lime Tel Aviv",
+        "location": "Tel Aviv",
+        "systemId": "lime_tel_aviv",
+        "url": "https://li.me/",
+        "autoDiscoveryUrl": "https://data.lime.bike/api/partners/v2/gbfs/tel_aviv/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IS",
+        "name": "Donkey Republic Reykjavik",
+        "location": "Reykjavik",
+        "systemId": "donkey_reykjavik",
+        "url": "https://www.donkey.bike/cities/bike-rental-reykjavik/",
+        "autoDiscoveryUrl": "https://stables.donkey.bike/api/public/gbfs/2/donkey_reykjavik/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IT",
+        "name": "Amicarnapoli",
+        "location": "Naples",
+        "systemId": "amicarnapoli",
+        "url": "https://www.amicarnapoli.it",
+        "autoDiscoveryUrl": "https://www.amicarnapoli.it/gbfs/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IT",
+        "name": "ARVAL",
+        "location": "Scandicci",
+        "systemId": "nextbike_ia",
+        "url": "https://www.nextbike.it/it/arval/",
+        "autoDiscoveryUrl": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ia/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IT",
+        "name": "Bird Rome",
+        "location": "Rome",
+        "systemId": "bird-rome",
+        "url": "https://www.bird.co",
+        "autoDiscoveryUrl": "https://mds.bird.co/gbfs/v2/public/rome/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IT",
+        "name": "Dott Alghero",
+        "location": "Alghero",
+        "systemId": "dott-alghero",
+        "url": "https://ridedott.com",
+        "autoDiscoveryUrl": "https://gbfs.api.ridedott.com/public/v2/alghero/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IT",
+        "name": "Dott Arzachena",
+        "location": "Arzachena",
+        "systemId": "dott-arzachena",
+        "url": "https://ridedott.com",
+        "autoDiscoveryUrl": "https://gbfs.api.ridedott.com/public/v2/arzachena/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IT",
+        "name": "Dott Catania",
+        "location": "Catania",
+        "systemId": "dott-catania",
+        "url": "https://ridedott.com",
+        "autoDiscoveryUrl": "https://gbfs.api.ridedott.com/public/v2/catania/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IT",
+        "name": "Dott Ferrara",
+        "location": "Ferrara",
+        "systemId": "dott-ferrara",
+        "url": "https://ridedott.com",
+        "autoDiscoveryUrl": "https://gbfs.api.ridedott.com/public/v2/ferrara/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IT",
+        "name": "Dott Milan",
+        "location": "Milan",
+        "systemId": "dott-milan",
+        "url": "https://ridedott.com",
+        "autoDiscoveryUrl": "https://gbfs.api.ridedott.com/public/v2/milan/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IT",
+        "name": "Dott Monza",
+        "location": "Monza",
+        "systemId": "dott-monza",
+        "url": "https://ridedott.com",
+        "autoDiscoveryUrl": "https://gbfs.api.ridedott.com/public/v2/monza/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IT",
+        "name": "Dott Padua",
+        "location": "Padua",
+        "systemId": "dott-padua",
+        "url": "https://ridedott.com",
+        "autoDiscoveryUrl": "https://gbfs.api.ridedott.com/public/v2/padua/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IT",
+        "name": "Dott Palermo",
+        "location": "Palermo",
+        "systemId": "dott-palermo",
+        "url": "https://ridedott.com",
+        "autoDiscoveryUrl": "https://gbfs.api.ridedott.com/public/v2/palermo/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IT",
+        "name": "Dott Riccione",
+        "location": "Riccione",
+        "systemId": "dott-riccione",
+        "url": "https://ridedott.com/",
+        "autoDiscoveryUrl": "https://gbfs.api.ridedott.com/public/v2/riccione/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IT",
+        "name": "Dott Rome",
+        "location": "Rome",
+        "systemId": "dott-rome",
+        "url": "https://ridedott.com",
+        "autoDiscoveryUrl": "https://gbfs.api.ridedott.com/public/v2/rome/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IT",
+        "name": "Dott Turin",
+        "location": "Turin",
+        "systemId": "dott-turin",
+        "url": "https://ridedott.com",
+        "autoDiscoveryUrl": "https://gbfs.api.ridedott.com/public/v2/turin/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IT",
+        "name": "Dott Varese",
+        "location": "Varese",
+        "systemId": "dott-varese",
+        "url": "https://ridedott.com",
+        "autoDiscoveryUrl": "https://gbfs.api.ridedott.com/public/v2/varese/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IT",
+        "name": "Dott Verona",
+        "location": "Verona",
+        "systemId": "dott-verona",
+        "url": "https://ridedott.com",
+        "autoDiscoveryUrl": "https://gbfs.api.ridedott.com/public/v2/verona/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IT",
+        "name": "Helbiz Bari",
+        "location": "Bari",
+        "systemId": "HELBIZ-US",
+        "url": "https://helbiz.com",
+        "autoDiscoveryUrl": "https://gbfs.helbiz.com/v2.2/bari/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IT",
+        "name": "Lime Rome",
+        "location": "Rome",
+        "systemId": "lime_rome",
+        "url": "https://www.li.me/",
+        "autoDiscoveryUrl": "https://data.lime.bike/api/partners/v2/gbfs/rome/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IT",
+        "name": "Lime Verona",
+        "location": "Verona",
+        "systemId": "lime_verona",
+        "url": "https://www.li.me",
+        "autoDiscoveryUrl": "https://data.lime.bike/api/partners/v2/gbfs/verona/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IT",
+        "name": "Milan Bikemi",
+        "location": "Milan",
+        "systemId": "milan-bikemi",
+        "url": "https://bikemi.com/en",
+        "autoDiscoveryUrl": "https://gbfs.urbansharing.com/bikemi.com/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IT",
+        "name": "Link Moncalieri",
+        "location": "Moncalieri",
+        "systemId": "Link_Moncalieri",
+        "url": "https://www.superpedestrian.com",
+        "autoDiscoveryUrl": "https://mds.linkyour.city/gbfs/it_moncalieri/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IT",
+        "name": "nextbike Bergamo",
+        "location": "Bergamo",
+        "systemId": "nextbike_ib",
+        "url": "https://www.nextbike.it/it/bergamo/",
+        "autoDiscoveryUrl": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ib/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IT",
+        "name": "Link Palermo",
+        "location": "Palermo",
+        "systemId": "Link_Palermo",
+        "url": "https://www.superpedestrian.com",
+        "autoDiscoveryUrl": "https://mds.linkyour.city/gbfs/it_palermo/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IT",
+        "name": "Link Turin",
+        "location": "Turin",
+        "systemId": "Link_Turin",
+        "url": "https://www.superpedestrian.com",
+        "autoDiscoveryUrl": "https://mds.linkyour.city/gbfs/it_turin/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IT",
+        "name": "Verona Bike",
+        "location": "Verona",
+        "systemId": "verona-bike",
+        "url": "https://bikeverona.it/en",
+        "autoDiscoveryUrl": "https://gbfs.urbansharing.com/bikeverona.it/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IT",
+        "name": "Zeus Anzio",
+        "location": "Anzio",
+        "systemId": "zeus_anzio",
+        "url": "https://zeusscooters.com/",
+        "autoDiscoveryUrl": "https://zeus.city/api/v1/mds/gbfs/anzio/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "IT",
+        "name": "Zeus Mazara",
+        "location": "Mazara",
+        "systemId": "zeus_mazara",
+        "url": "https://zeusscooters.com/",
+        "autoDiscoveryUrl": "https://zeus.city/api/v1/mds/gbfs/mazara/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "LI",
+        "name": "Donkey Republic Liechtenstein",
+        "location": "Liechtenstein",
+        "systemId": "donkey_li",
+        "url": "https://www.donkey.bike/cities/",
+        "autoDiscoveryUrl": "https://stables.donkey.bike/api/public/gbfs/2/donkey_li/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "LV",
+        "name": "nextbike LV",
+        "location": "Rīga",
+        "systemId": "nextbike_lv",
+        "url": "https://www.nextbike.lv/",
+        "autoDiscoveryUrl": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_lv/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "MC",
+        "name": "MonaBike",
+        "location": "Monaco",
+        "systemId": "mona_bike",
+        "url": "https://monabike.mc/",
+        "autoDiscoveryUrl": "https://monaco.publicbikesystem.net/customer/gbfs/v2/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "MT",
+        "name": "Helbiz Malta",
+        "location": "Malta",
+        "systemId": "HELBIZ-US",
+        "url": "https://helbiz.com/",
+        "autoDiscoveryUrl": "https://gbfs.helbiz.com/v2.2/malta/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "MX",
+        "name": "Ecobici",
+        "location": "Mexico City",
+        "systemId": "MEX",
+        "url": "https://www.ecobici.cdmx.gob.mx",
+        "autoDiscoveryUrl": "https://gbfs.mex.lyftbikes.com/gbfs/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "MX",
+        "name": "Mibici Guadalajara",
+        "location": "Guadalajara",
+        "systemId": "mibici_guadalajara",
+        "url": "https://www.mibici.net/en/",
+        "autoDiscoveryUrl": "https://guadalajara-mx.publicbikesystem.net/customer/gbfs/v2/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "MY",
+        "name": "Zeus Kuala Lumpur",
+        "location": "Kuala Lumpur",
+        "systemId": "zeus_kuala lumpur",
+        "url": "https://zeusscooters.com/",
+        "autoDiscoveryUrl": "https://zeus.city/api/v1/mds/gbfs/kuala%20lumpur/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NL",
+        "name": "Check Technologies",
+        "location": "Almere",
+        "systemId": "check_almere",
+        "url": "https://ridecheck.app",
+        "autoDiscoveryUrl": "https://api.ridecheck.app/gbfs/v3/almere/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NL",
+        "name": "Check Technologies",
+        "location": "Amersfoort",
+        "systemId": "check_amersfoort",
+        "url": "https://ridecheck.app",
+        "autoDiscoveryUrl": "https://api.ridecheck.app/gbfs/v3/amersfoort/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NL",
+        "name": "Check Technologies",
+        "location": "Amsterdam",
+        "systemId": "check_amsterdam",
+        "url": "https://ridecheck.app",
+        "autoDiscoveryUrl": "https://api.ridecheck.app/gbfs/v3/amsterdam/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NL",
+        "name": "Check Technologies",
+        "location": "Breda",
+        "systemId": "check_breda",
+        "url": "https://ridecheck.app",
+        "autoDiscoveryUrl": "https://api.ridecheck.app/gbfs/v3/breda/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NL",
+        "name": "Check Technologies",
+        "location": "Delft",
+        "systemId": "check_delft",
+        "url": "https://ridecheck.app",
+        "autoDiscoveryUrl": "https://api.ridecheck.app/gbfs/v3/delft/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NL",
+        "name": "Check Technologies",
+        "location": "Den Bosch",
+        "systemId": "check_denbosch",
+        "url": "https://ridecheck.app",
+        "autoDiscoveryUrl": "https://api.ridecheck.app/gbfs/v3/denbosch/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NL",
+        "name": "Check Technologies",
+        "location": "Den Haag",
+        "systemId": "check_denhaag",
+        "url": "https://ridecheck.app",
+        "autoDiscoveryUrl": "https://api.ridecheck.app/gbfs/v3/denhaag/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NL",
+        "name": "Check Technologies",
+        "location": "Eindhoven",
+        "systemId": "check_eindhoven",
+        "url": "https://ridecheck.app",
+        "autoDiscoveryUrl": "https://api.ridecheck.app/gbfs/v3/eindhoven/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NL",
+        "name": "Check Technologies",
+        "location": "Groningen",
+        "systemId": "check_groningen",
+        "url": "https://ridecheck.app",
+        "autoDiscoveryUrl": "https://api.ridecheck.app/gbfs/v3/groningen/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NL",
+        "name": "Check Technologies",
+        "location": "Hilversum",
+        "systemId": "check_hilversum",
+        "url": "https://ridecheck.app",
+        "autoDiscoveryUrl": "https://api.ridecheck.app/gbfs/v3/hilversum/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NL",
+        "name": "Check Technologies",
+        "location": "Lansingerland",
+        "systemId": "check_lansingerland",
+        "url": "https://ridecheck.app",
+        "autoDiscoveryUrl": "https://api.ridecheck.app/gbfs/v3/lansingerland/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NO",
+        "name": "Bergen Bysykkel",
+        "location": "Bergen",
+        "systemId": "bergenbysykkel",
+        "url": "https://www.bergenbysykkel.no",
+        "autoDiscoveryUrl": "https://api.entur.io/mobility/v2/gbfs/bergenbysykkel/gbfs",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NO",
+        "name": "Bergen City Bike",
+        "location": "Bergen",
+        "systemId": "bergen-city-bike",
+        "url": "https://bergenbysykkel.no/en",
+        "autoDiscoveryUrl": "https://gbfs.urbansharing.com/bergenbysykkel.no/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NO",
+        "name": "Bolt Arpsborg",
+        "location": "Arpsborg",
+        "systemId": "boltarpsborg",
+        "url": "https://www.bolt.eu/",
+        "autoDiscoveryUrl": "https://api.entur.io/mobility/v2/gbfs/boltsarpsborg/gbfs",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NO",
+        "name": "Bolt Bergen",
+        "location": "Bergen",
+        "systemId": "boltbergen",
+        "url": "https://bolt.eu/en/cities/bergen/",
+        "autoDiscoveryUrl": "https://api.entur.io/mobility/v2/gbfs/boltbergen/gbfs",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NO",
+        "name": "Bolt Drammen",
+        "location": "Drammen",
+        "systemId": "boltdrammen",
+        "url": "https://bolt.eu/en/cities/drammen/",
+        "autoDiscoveryUrl": "https://api.entur.io/mobility/v2/gbfs/boltdrammen/gbfs",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NO",
+        "name": "Bolt Fredrikstad",
+        "location": "Fredrikstad",
+        "systemId": "boltfredrikstad",
+        "url": "https://bolt.eu/en/cities/fredrikstad/",
+        "autoDiscoveryUrl": "https://api.entur.io/mobility/v2/gbfs/boltfredrikstad/gbfs",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NO",
+        "name": "Bolt Gjovik",
+        "location": "Gjovik",
+        "systemId": "boltgjovik",
+        "url": "https://bolt.eu/en/cities/gjovik/",
+        "autoDiscoveryUrl": "https://api.entur.io/mobility/v2/gbfs/boltgjovik/gbfs",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NO",
+        "name": "Bolt Hamar",
+        "location": "Hamar",
+        "systemId": "bolthamar",
+        "url": "https://bolt.eu/en/cities/hamar/",
+        "autoDiscoveryUrl": "https://api.entur.io/mobility/v2/gbfs/bolthamar/gbfs",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NO",
+        "name": "Bolt Kristiansand",
+        "location": "Kristiansand",
+        "systemId": "boltkristiansand",
+        "url": "https://www.bolt.eu/",
+        "autoDiscoveryUrl": "https://api.entur.io/mobility/v2/gbfs/boltkristiansand/gbfs",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NO",
+        "name": "Bolt Lillehammer",
+        "location": "Lillehammer",
+        "systemId": "boltlillehammer",
+        "url": "https://bolt.eu/en/cities/lillehammer/",
+        "autoDiscoveryUrl": "https://api.entur.io/mobility/v2/gbfs/boltlillehammer/gbfs",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NO",
+        "name": "Bolt Lillestrom",
+        "location": "Lillestrom",
+        "systemId": "boltlillestrom",
+        "url": "https://bolt.eu/en/cities/lillestrom/",
+        "autoDiscoveryUrl": "https://api.entur.io/mobility/v2/gbfs/boltlillestrom/gbfs",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NO",
+        "name": "Bolt Oslo",
+        "location": "Oslo",
+        "systemId": "boltoslo",
+        "url": "https://bolt.eu/en/cities/oslo/",
+        "autoDiscoveryUrl": "https://api.entur.io/mobility/v2/gbfs/boltoslo/gbfs",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NO",
+        "name": "Hertz Bildeling",
+        "location": "Bildeling",
+        "systemId": "hertzbildeling",
+        "url": "https://www.hertzbildeling.no/",
+        "autoDiscoveryUrl": "https://api.entur.io/mobility/v2/gbfs/hertzbildeling/gbfs",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NO",
+        "name": "Hyre",
+        "location": "Norway",
+        "systemId": "hyrenorge",
+        "url": "https://www.hyre.no/",
+        "autoDiscoveryUrl": "https://api.entur.io/mobility/v2/gbfs/hyrenorge/gbfs",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NO",
+        "name": "Kolumbus Bysykkel",
+        "location": "Stavanger",
+        "systemId": "kolumbusbysykkel",
+        "url": "https://www.kolumbus.no/reise/sykkel-oversikt/bysykkelen/",
+        "autoDiscoveryUrl": "https://api.entur.io/mobility/v2/gbfs/kolumbusbysykkel/gbfs",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NO",
+        "name": "Otto",
+        "location": "Norway",
+        "systemId": "otto",
+        "url": "https://www.otto.no/",
+        "autoDiscoveryUrl": "https://api.entur.io/mobility/v2/gbfs/otto/gbfs",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NO",
+        "name": "Oslo Bysykkel",
+        "location": "Oslo",
+        "systemId": "oslobysykkel",
+        "url": "https://oslobysykkel.no/",
+        "autoDiscoveryUrl": "https://api.entur.io/mobility/v2/gbfs/oslobysykkel/gbfs",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NO",
+        "name": "Ryde Bergen",
+        "location": "Bergen",
+        "systemId": "rydebergen",
+        "url": "https://www.ryde-technology.com/",
+        "autoDiscoveryUrl": "https://api.entur.io/mobility/v2/gbfs/rydebergen/gbfs",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NO",
+        "name": "Ryde_Bodø",
+        "location": "Bodø",
+        "systemId": "rydebodo",
+        "url": "https://www.ryde-technology.com/",
+        "autoDiscoveryUrl": "https://api.entur.io/mobility/v2/gbfs/rydebodoe/gbfs",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NO",
+        "name": "Ryde_Oslo",
+        "location": "Oslo",
+        "systemId": "rydeoslo",
+        "url": "https://www.ryde-technology.com/",
+        "autoDiscoveryUrl": "https://api.entur.io/mobility/v2/gbfs/rydeoslo/gbfs",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NO",
+        "name": "Ryde Stavanger",
+        "location": "Stavanger",
+        "systemId": "rydestavanger",
+        "url": "https://www.ryde-technology.com/",
+        "autoDiscoveryUrl": "https://api.entur.io/mobility/v2/gbfs/rydestavanger/gbfs",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NO",
+        "name": "Ryde Trondheim",
+        "location": "Trondheim",
+        "systemId": "rydetrondheim",
+        "url": "https://www.ryde-technology.com/",
+        "autoDiscoveryUrl": "https://api.entur.io/mobility/v2/gbfs/rydetrondheim/gbfs",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NO",
+        "name": "Tier Baerum",
+        "location": "Baerum",
+        "systemId": "tierbaerum",
+        "url": "https://www.tier.app/",
+        "autoDiscoveryUrl": "https://api.entur.io/mobility/v2/gbfs/tierbaerum/gbfs",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NO",
+        "name": "Tier Lillestrom",
+        "location": "Lillestrom",
+        "systemId": "tierlillestrom",
+        "url": "https://www.tier.app/",
+        "autoDiscoveryUrl": "https://api.entur.io/mobility/v2/gbfs/tierlillestrom/gbfs",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NO",
+        "name": "Tier Trondheim",
+        "location": "Trondheim",
+        "systemId": "tiertrondheim",
+        "url": "https://www.tier.app/",
+        "autoDiscoveryUrl": "https://api.entur.io/mobility/v2/gbfs/tiertrondheim/gbfs",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NO",
+        "name": "Trondheim Bysykkel",
+        "location": "Trondheim",
+        "systemId": "trondheimbysykkel",
+        "url": "https://trondheimbysykkel.no/",
+        "autoDiscoveryUrl": "https://api.entur.io/mobility/v2/gbfs/trondheimbysykkel/gbfs",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "NO",
+        "name": "Zeus Oslo",
+        "location": "Oslo",
+        "systemId": "zeus_oslo",
+        "url": "https://zeusscooters.com/",
+        "autoDiscoveryUrl": "https://zeus.city/api/v1/mds/gbfs/oslo/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "SE",
+        "name": "Donkey Republic Ängelholm",
+        "location": "Ängelholm",
+        "systemId": "donkey_aengelholm",
+        "url": "https://www.donkey.bike/cities/bike-rental-angelholm/",
+        "autoDiscoveryUrl": "https://stables.donkey.bike/api/public/gbfs/2/donkey_aengelholm/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "SE",
+        "name": "Donkey Republic Båstad",
+        "location": "Båstad",
+        "systemId": "donkey_baastad",
+        "url": "https://www.donkey.bike/cities/bike-rental-bastad/",
+        "autoDiscoveryUrl": "https://stables.donkey.bike/api/public/gbfs/2/donkey_baastad/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "SE",
+        "name": "Donkey Republic Malmö",
+        "location": "Malmö",
+        "systemId": "donkey_malmoe",
+        "url": "https://www.donkey.bike/cities/bike-rental-malmo/",
+        "autoDiscoveryUrl": "https://stables.donkey.bike/api/public/gbfs/2/donkey_malmoe/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "SE",
+        "name": "Donkey Republic Ystad",
+        "location": "Ystad",
+        "systemId": "donkey_ystad",
+        "url": "https://www.donkey.bike/cities/bike-rental-ystad/",
+        "autoDiscoveryUrl": "https://stables.donkey.bike/api/public/gbfs/2/donkey_ystad/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "SE",
+        "name": "Dott Stockholm",
+        "location": "Stockholm",
+        "systemId": "dott-stockholm",
+        "url": "https://ridedott.com",
+        "autoDiscoveryUrl": "https://gbfs.api.ridedott.com/public/v2/stockholm/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "SE",
+        "name": "Qick Borlänge",
+        "location": "Borlänge",
+        "systemId": "463",
+        "url": "https://www.qickscooters.com/",
+        "autoDiscoveryUrl": "https://qickscooters.rideatom.com/gbfs/v2_2/en/gbfs?id=463",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "SE",
+        "name": "Qick Eskilstuna",
+        "location": "Eskilstuna",
+        "systemId": "462",
+        "url": "https://www.qickscooters.com/",
+        "autoDiscoveryUrl": "https://qickscooters.rideatom.com/gbfs/v2_2/en/gbfs?id=462",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "SE",
+        "name": "Qick Falun",
+        "location": "Falun",
+        "systemId": "464",
+        "url": "https://www.qickscooters.com/",
+        "autoDiscoveryUrl": "https://qickscooters.rideatom.com/gbfs/v2_2/en/gbfs?id=464",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "SE",
+        "name": "Qick Jönköping",
+        "location": "Jönköping",
+        "systemId": "52",
+        "url": "https://www.qickscooters.com/",
+        "autoDiscoveryUrl": "https://qickscooters.rideatom.com/gbfs/v2_2/en/gbfs?id=52",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "SE",
+        "name": "Qick Linköping",
+        "location": "Linköping",
+        "systemId": "10",
+        "url": "https://www.qickscooters.com/",
+        "autoDiscoveryUrl": "https://qickscooters.rideatom.com/gbfs/v2_2/en/gbfs?id=10",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "SE",
+        "name": "Qick Norrköping",
+        "location": "Norrköping",
+        "systemId": "53",
+        "url": "https://www.qickscooters.com/",
+        "autoDiscoveryUrl": "https://qickscooters.rideatom.com/gbfs/v2_2/en/gbfs?id=53",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "SE",
+        "name": "Qick Örebro",
+        "location": "Örebro",
+        "systemId": "5",
+        "url": "https://www.qickscooters.com/",
+        "autoDiscoveryUrl": "https://qickscooters.rideatom.com/gbfs/v2_2/en/gbfs?id=5",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "SE",
+        "name": "Qick Västerås",
+        "location": "Västerås",
+        "systemId": "104",
+        "url": "https://www.qickscooters.com/",
+        "autoDiscoveryUrl": "https://qickscooters.rideatom.com/gbfs/v2_2/en/gbfs?id=104",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "SE",
+        "name": "Styr & Ställ (Sweden, Göteborg)",
+        "location": "Göteborg",
+        "systemId": "nextbike_zg",
+        "url": "https://styrochstall.se/sv/",
+        "autoDiscoveryUrl": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_zg/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "SE",
+        "name": "Zeus Borlänge",
+        "location": "Borlänge",
+        "systemId": "zeus_borlange",
+        "url": "https://zeusscooters.com",
+        "autoDiscoveryUrl": "https://zeus.city/api/v1/mds/gbfs/borlange/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "SE",
+        "name": "Zeus Falun",
+        "location": "Falun",
+        "systemId": "zeus_falun",
+        "url": "https://zeusscooters.com/",
+        "autoDiscoveryUrl": "https://zeus.city/api/v1/mds/gbfs/falun/gbfs.json",
+        "authenticationInfo": null
+    },
+    {
+        "countryCode": "PL",
+        "name": "Rower Miejski w Ostrowie Wielkopolskim Poland",
+        "location": "Ostrów Wielkopolski",
+        "systemId": "nextbike_po",
+        "url": "https://ostrowskirowermiejski.pl/",
+        "autoDiscoveryUrl": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_po/gbfs.json"
+    },
+    {
+        "countryCode": "PL",
+        "name": "Rowerowe Łódzkie Poland (RL)",
+        "location": "Poland",
+        "systemId": "nextbike_pw",
+        "url": "https://www.rowerowelodzkie.pl/",
+        "autoDiscoveryUrl": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_pw/gbfs.json"
+    },
+    {
+        "countryCode": "PL",
+        "name": "Rower Powiatowy Sokołów Podlaski",
+        "location": "Sokołów Podlaski",
+        "systemId": "nextbike_rq",
+        "url": "https://powiatowyrower.pl/",
+        "autoDiscoveryUrl": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_rq/gbfs.json"
+    },
+    {
+        "countryCode": "PL",
+        "name": "Sosnowiecki Rower Miejski Poland",
+        "location": "Sosnowiec",
+        "systemId": "nextbike_pr",
+        "url": "https://sosnowieckirowermiejski.pl/",
+        "autoDiscoveryUrl": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_pr/gbfs.json"
+    },
+    {
+        "countryCode": "PL",
+        "name": "System Roweru Gminnego Poland",
+        "location": "Pielgrzymka",
+        "systemId": "nextbike_pg",
+        "url": "https://rowery.pielgrzymka.biz/",
+        "autoDiscoveryUrl": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_pg/gbfs.json"
+    },
+    {
+        "countryCode": "PL",
+        "name": "System Rowerów Miejskich w Pszczynie Poland",
+        "location": "Pszczyna",
+        "systemId": "nextbike_ap",
+        "url": "https://www.pszczynskirower.pl/",
+        "autoDiscoveryUrl": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ap/gbfs.json"
+    },
+    {
+        "countryCode": "PL",
+        "name": "Tarnowski Rower Miejski Poland",
+        "location": "Tarnów",
+        "systemId": "nextbike_tn",
+        "url": "https://rower.tarnow.pl/",
+        "autoDiscoveryUrl": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_tn/gbfs.json"
+    },
+    {
+        "countryCode": "PL",
+        "name": "Tyski Rower Miejski Poland",
+        "location": "Tychy",
+        "systemId": "nextbike_pt",
+        "url": "https://www.tyskirower.pl/",
+        "autoDiscoveryUrl": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_pt/gbfs.json"
+    },
+    {
+        "countryCode": "PL",
+        "name": "VETURILO Poland",
+        "location": "Poland",
+        "systemId": "nextbike_vw",
+        "url": "https://www.veturilo.waw.pl/",
+        "autoDiscoveryUrl": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_vw/gbfs.json"
+    },
+    {
+        "countryCode": "PL",
+        "name": "Wolsztyński Rower Miejski",
+        "location": "Wolsztyn",
+        "systemId": "nextbike_fp",
+        "url": "https://www.rower.wolsztyn.pl/logowanie",
+        "autoDiscoveryUrl": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_fp/gbfs.json"
+    },
+    {
+        "countryCode": "PL",
+        "name": "WRM nextbike Poland",
+        "location": "Wrocław",
+        "systemId": "nextbike_pl",
+        "url": "https://www.wroclawskirower.pl/",
+        "autoDiscoveryUrl": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_pl/gbfs.json"
+    },
+    {
+        "countryCode": "PL",
+        "name": "Zielonogórski Rower Miejski Poland",
+        "location": "Zielona Góra",
+        "systemId": "nextbike_pm",
+        "url": "https://zielonogorskirowermiejski.pl/",
+        "autoDiscoveryUrl": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_pm/gbfs.json"
+    },
+    {
+        "countryCode": "PL",
+        "name": "Żyrardowski Rower Miejski Poland",
+        "location": "Żyrardów",
+        "systemId": "nextbike_zy",
+        "url": "https://zyrardowskirower.pl/",
+        "autoDiscoveryUrl": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_zy/gbfs.json"
+    },
+    {
+        "countryCode": "PT",
+        "name": "Bird Braga",
+        "location": "Braga",
+        "systemId": "bird-braga",
+        "url": "https://www.bird.co",
+        "autoDiscoveryUrl": "https://mds.bird.co/gbfs/v2/public/braga/gbfs.json"
+    },
+    {
+        "countryCode": "PT",
+        "name": "Bird Cascais",
+        "location": "Cascais",
+        "systemId": "bird-cascais",
+        "url": "https://www.bird.co",
+        "autoDiscoveryUrl": "https://mds.bird.co/gbfs/v2/public/cascais/gbfs.json"
+    },
+    {
+        "countryCode": "PT",
+        "name": "Bird Lisbon",
+        "location": "Lisbon",
+        "systemId": "bikr-lisbon",
+        "url": "https://www.bird.co",
+        "autoDiscoveryUrl": "https://mds.bird.co/gbfs/v2/public/lisbon/gbfs.json"
+    },
+    {
+        "countryCode": "PT",
+        "name": "LINK Faro",
+        "location": "Faro",
+        "systemId": "Link_Faro",
+        "url": "https://www.superpedestrian.com",
+        "autoDiscoveryUrl": "https://mds.linkyour.city/gbfs/pt_faro/gbfs.json"
+    }
+]
