@@ -30,7 +30,15 @@ export class GBFSSystemService {
       }
     });
 
-    return systems;
+    return systems.map((system) => ({
+      systemId: system.systemId,
+      countryCode: system.countryCode,
+      name: system.name,
+      location: system.location,
+      url: system.url,
+      autoDiscoveryUrl: system.autoDiscoveryUrl,
+      authenticationInfo: system.authenticationInfo,
+    }));
   }
 
   getAutoDiscoveryUrl(systemId: string): Observable<string> {
