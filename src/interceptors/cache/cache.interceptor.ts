@@ -25,9 +25,6 @@ export class CustomCacheInterceptor implements NestInterceptor {
   ): Observable<any> {
     const key: string = context.switchToHttp().getRequest().url;
 
-    console.log('CustomCacheInterceptor');
-    console.log('Request element --> key: ', key);
-    console.log('cache: ', this.cache);
     // Nothing to find or set in cache
     if (!key) {
       return next.handle();
@@ -48,7 +45,6 @@ export class CustomCacheInterceptor implements NestInterceptor {
     // Continue flow, call API and set cache
     return next.handle().pipe(
       tap((response: FullSystemDetails) => {
-        console.log('response: ', response);
         this.cache.set(key, {
           value: response,
           expiry:

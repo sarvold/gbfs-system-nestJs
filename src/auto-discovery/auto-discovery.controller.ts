@@ -1,7 +1,7 @@
 import { Controller, Get, Param, UseInterceptors } from '@nestjs/common';
 import { Observable } from 'rxjs';
-import { CustomCacheInterceptor } from 'src/interceptors/cache/cache.interceptor';
-import { BaseResponse } from 'src/shared/interfaces/base-response.interface';
+import { CustomCacheInterceptor } from '../interceptors/cache/cache.interceptor';
+import { BaseResponse } from '../shared/interfaces/base-response.interface';
 import {
   FullSystemDetails,
   GbfsDiscoveryFile,

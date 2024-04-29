@@ -1,44 +1,29 @@
 import { getModelToken } from '@nestjs/mongoose';
 import { Test, TestingModule } from '@nestjs/testing';
-import { GBFSSystemClass } from './gbfs-system.schema';
+import { GBFSSystemDto } from './gbfs-system.interfaces';
 import { GBFSSystemService } from './gbfs-system.service';
 
 describe('GBFSSystemService', () => {
   let service: GBFSSystemService;
-
-  const mockModel = {
-    find: jest.fn().mockReturnThis(),
-    exec: jest.fn(),
-    insertMany: jest.fn(),
-  };
+  let model: any;
+  let mockSystems: GBFSSystemDto[];
 
   beforeEach(async () => {
+    model = {
+      find: jest.fn(),
+      findOne: jest.fn(),
+      insertMany: jest.fn(),
+    };
+
     const module: TestingModule = await Test.createTestingModule({
       providers: [
         GBFSSystemService,
-        {
-          provide: getModelToken(GBFSSystemClass.name),
-          useValue: mockModel,
-        },
+        { provide: getModelToken('GBFSSystemClass'), useValue: model },
       ],
     }).compile();
 
     service = module.get<GBFSSystemService>(GBFSSystemService);
-  });
-
-  it('should be defined', () => {
-    expect(service).toBeDefined();
-  });
-
-  it('should get all systems', async () => {
-    mockModel.exec.mockResolvedValueOnce([]);
-    await service.getAllSystems();
-    expect(mockModel.find).toHaveBeenCalled();
-    expect(mockModel.exec).toHaveBeenCalled();
-  });
-
-  it('should create systems', async () => {
-    const systems = [
+    mockSystems = [
       {
         systemId: '1',
         countryCode: 'US',
@@ -47,8 +32,50 @@ describe('GBFSSystemService', () => {
         url: 'http://test.com',
         autoDiscoveryUrl: 'http://test.com',
       },
+      {
+        systemId: 'bike_buenosaires',
+        countryCode: 'AR',
+        name: 'Ecobici',
+        location: 'Buenos Aires',
+        url: 'https://www.buenosaires.gob.ar/ecobici',
+        autoDiscoveryUrl:
+          'https://buenosaires.publicbikesystem.net/ube/gbfs/v1/',
+        authenticationInfo: null,
+      },
     ];
-    await service.createSystems(systems);
-    expect(mockModel.insertMany).toHaveBeenCalledWith(systems);
+  });
+
+  it('should be defined', () => {
+    expect(service).toBeDefined();
+  });
+
+  describe('getAllSystems', () => {
+    it('should return all systems', async () => {
+      model.find.mockReturnValueOnce({
+        exec: () => Promise.resolve(mockSystems),
+      });
+
+      expect(await service.getAllSystems()).toEqual(mockSystems);
+    });
+  });
+
+  describe('getSystemById', () => {
+    it('should return the system with the given id', (done) => {
+      const systemId = 'testSystem';
+      model.findOne.mockReturnValueOnce(Promise.resolve(mockSystems[1]));
+
+      service.getSystemById(systemId).subscribe((system) => {
+        expect(system).toEqual(mockSystems[1]);
+        done();
+      });
+    });
+  });
+
+  describe('createSystems', () => {
+    it('should create systems and return them', async () => {
+      model.insertMany.mockReturnValueOnce(Promise.resolve(mockSystems));
+
+      expect(await service.createSystems(mockSystems)).toEqual(mockSystems);
+    });
   });
 });

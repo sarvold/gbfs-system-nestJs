@@ -5,9 +5,9 @@ import {
 } from '@nestjs/common';
 import { Observable, forkJoin, from, of } from 'rxjs';
 import { catchError, mergeMap, switchMap } from 'rxjs/operators';
-import { GBFSSystemService } from 'src/gbfs-system/gbfs-system.service';
-import { UrbanSharingHttpService } from 'src/shared/http/http.service';
-import { BaseResponse } from 'src/shared/interfaces/base-response.interface';
+import { GBFSSystemService } from '../gbfs-system/gbfs-system.service';
+import { UrbanSharingHttpService } from '../shared/http/http.service';
+import { BaseResponse } from '../shared/interfaces/base-response.interface';
 import {
   FullSystemDetails,
   GbfsDiscoveryFeed,
