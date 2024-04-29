@@ -17,7 +17,7 @@ export class GBFSSystemService {
   ) {}
 
   async getAllSystems(): Promise<GBFSSystemDto[]> {
-    const systems = await this.gbfsSystemModel.find<GBFSSystemDto>().exec();
+    const systems = await this.gbfsSystemModel.find<GBFSSystemDto>().select('-_id -__v').exec();
     if (!systems || systems.length === 0) {
       throw new NotFoundException('No systems found');
     }
@@ -30,15 +30,7 @@ export class GBFSSystemService {
       }
     });
 
-    return systems.map((system) => ({
-      systemId: system.systemId,
-      countryCode: system.countryCode,
-      name: system.name,
-      location: system.location,
-      url: system.url,
-      autoDiscoveryUrl: system.autoDiscoveryUrl,
-      authenticationInfo: system.authenticationInfo,
-    }));
+    return systems;
   }
 
   getAutoDiscoveryUrl(systemId: string): Observable<string> {
